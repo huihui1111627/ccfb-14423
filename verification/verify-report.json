@@ -1,0 +1,3024 @@
+{
+  "generated_at": "2026-11-20T19:24:49Z",
+  "run_config": {
+    "images": 24,
+    "layers_per_image": 4,
+    "reads_per_image": 800,
+    "latency_ms": 2,
+    "bandwidth_bytes_per_sec": 65536
+  },
+  "images": [
+    {
+      "name": "img-00",
+      "manifest": "sha256:c7559c65c99842a83401856d854567bc9eec5204a5e40cc02e3d731877e03888",
+      "layers": [
+        {
+          "digest": "sha256:f5d5fbaa1711fa9e0f646131a2883bfc3a48da2c02a57b1a599420ab1dc5aed4",
+          "index_digest": "sha256:f7828cb00c793adee7d7e58f461acf8db75e89f964532a8e21dba7609231207c",
+          "packed_size": 3160979,
+          "archive_size": 3278336,
+          "segments": 315,
+          "files": 174,
+          "segment_checks": 314,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:7f0b9d4ad46ddba5ec356bc2c207ccc71ed6895e0ccc398f177258753c041c8f",
+          "index_digest": "sha256:35fbc350f8b50eb62fc34ae35e45999944d3d58eb4d39f4746a560b0bfa7d406",
+          "packed_size": 2214199,
+          "archive_size": 2328576,
+          "segments": 294,
+          "files": 174,
+          "segment_checks": 293,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:5a36e6143993f48c2d912a5a3eee4631f3665e28e02581463008b1ca0c43322c",
+          "index_digest": "sha256:7ea91f85f2c7e7983e8092e4ed090625189024c0309fbae1e980f73f2a2eb069",
+          "packed_size": 2164904,
+          "archive_size": 2278400,
+          "segments": 294,
+          "files": 173,
+          "segment_checks": 293,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:8facf566915a14adc5f5295c3be514b00d80ec79197c4e01dfd952d102dee5ec",
+          "index_digest": "sha256:87afe498d9cbb85b3b6f38283f731789d6f4d54157e5361cf60fb46f9f945e9a",
+          "packed_size": 2075776,
+          "archive_size": 2189824,
+          "segments": 314,
+          "files": 173,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-00-c0",
+          "index_load_ms": 1446.488,
+          "ready_ms": 1450.408,
+          "cold": true,
+          "read_bytes": 93582,
+          "image_packed_bytes": 9615858,
+          "fraction_of_layers": 0.009732048871769945,
+          "index_bytes": 93538
+        },
+        {
+          "id": "img-00-c1",
+          "index_load_ms": 1446.488,
+          "ready_ms": 2.543,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9615858,
+          "fraction_of_layers": 0,
+          "index_bytes": 93538
+        },
+        {
+          "id": "img-00-c2",
+          "index_load_ms": 1446.488,
+          "ready_ms": 0.408,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9615858,
+          "fraction_of_layers": 0,
+          "index_bytes": 93538
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2810961,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 833,
+        "list_checks": 729,
+        "write_checks": 65,
+        "tree_checks": 1,
+        "paths": 199,
+        "bytes_checked": 324491,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:f5d5fbaa1711fa9e0f646131a2883bfc3a48da2c02a57b1a599420ab1dc5aed4 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-00",
+        "packed_bytes": 9615858,
+        "lazy_ready_ms": 17.895,
+        "lazy_bytes": 93582,
+        "lazy_fraction": 0.009732048871769945,
+        "full_ready_ms": 3108.482,
+        "full_bytes": 9615858,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-01",
+      "manifest": "sha256:603ba6aa97444404f38d4e2c13e6d5ab22fac8c29efb4c614843dae8409914b7",
+      "layers": [
+        {
+          "digest": "sha256:3c9a48ca531a96ba4d11374f43fc061e8102ae37bf062801024d4b528e5f765e",
+          "index_digest": "sha256:5254e58859a118a4a20568513a1d0236a422747b6b095f2ad93af2fce2d80cc4",
+          "packed_size": 3052159,
+          "archive_size": 3170304,
+          "segments": 317,
+          "files": 174,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:0a795f075f86a5891f48a091759cec42f1dcc2accf253bfffbde9a3c6ee4ed9e",
+          "index_digest": "sha256:81befcbc8ca3d634d3659fd23ed3ba1ce963041bcd57466ac3734a6f37a366d9",
+          "packed_size": 2121216,
+          "archive_size": 2235904,
+          "segments": 304,
+          "files": 174,
+          "segment_checks": 303,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:f2416c4ede0b2ca1acaa5956d9b16aca0c5729b267c30202f4a79072b8ae6d9e",
+          "index_digest": "sha256:c9783380c4c2a99d6ff2baff785a602743a48e91169b227344f61c7cbc519a5f",
+          "packed_size": 2197336,
+          "archive_size": 2310656,
+          "segments": 307,
+          "files": 173,
+          "segment_checks": 306,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b55b07bbe80b6dd1b3eb90256f8d7c4c323cf9ba1495fe0ee9ef54e1fa9d413c",
+          "index_digest": "sha256:2de10e3946388723af14bb9b44f3187d106366d8eac3941dc7a94f191b6f094a",
+          "packed_size": 2357212,
+          "archive_size": 2469888,
+          "segments": 307,
+          "files": 173,
+          "segment_checks": 306,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-01-c0",
+          "index_load_ms": 1461.102,
+          "ready_ms": 1465.322,
+          "cold": true,
+          "read_bytes": 94750,
+          "image_packed_bytes": 9727923,
+          "fraction_of_layers": 0.009740003081850052,
+          "index_bytes": 94706
+        },
+        {
+          "id": "img-01-c1",
+          "index_load_ms": 1461.102,
+          "ready_ms": 0.536,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9727923,
+          "fraction_of_layers": 0,
+          "index_bytes": 94706
+        },
+        {
+          "id": "img-01-c2",
+          "index_load_ms": 1461.102,
+          "ready_ms": 0.433,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9727923,
+          "fraction_of_layers": 0,
+          "index_bytes": 94706
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3092857,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 803,
+        "list_checks": 724,
+        "write_checks": 84,
+        "tree_checks": 1,
+        "paths": 211,
+        "bytes_checked": 287155,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:3c9a48ca531a96ba4d11374f43fc061e8102ae37bf062801024d4b528e5f765e segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-01",
+        "packed_bytes": 9727923,
+        "lazy_ready_ms": 18.003,
+        "lazy_bytes": 94750,
+        "lazy_fraction": 0.009740003081850052,
+        "full_ready_ms": 3134.203,
+        "full_bytes": 9727923,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-02",
+      "manifest": "sha256:cb1c2cdffd9570b6dc8f5e2a65481d0d17e46f95a7e17a4cc4fa71b207136821",
+      "layers": [
+        {
+          "digest": "sha256:dd5bfdb6b96ceddbdcdb57fc8e5afe278fed57f08388baa87fbae816d2308dce",
+          "index_digest": "sha256:bf8ce216f3635c9aa88537ff14c18eaa652d851df727324610c1677288c3dc72",
+          "packed_size": 3291998,
+          "archive_size": 3409408,
+          "segments": 327,
+          "files": 174,
+          "segment_checks": 326,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:0da99365dbef213d8f8e89b010b428d254e29ea2c81195e96e31360c7b4db0b9",
+          "index_digest": "sha256:ea5a8a2348714155d906694203ee5b22b2b3c19115a3a03477d24c80dce9da03",
+          "packed_size": 2257570,
+          "archive_size": 2371584,
+          "segments": 321,
+          "files": 174,
+          "segment_checks": 320,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:cf710206455619d3024daeef3e0d6cfccfc04a333bf6f48d7a666d47acb06443",
+          "index_digest": "sha256:23e99a88a230707344bfb96e135ee32105cfc47b50e78c481a09ba3bed0405df",
+          "packed_size": 2328989,
+          "archive_size": 2442752,
+          "segments": 308,
+          "files": 173,
+          "segment_checks": 307,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:658e980eb81b98a89d24ed040c07230bbe3ca96fe81255664033f344e0b6604d",
+          "index_digest": "sha256:d039ae9583fa37870e2b9d1323a23c20a1fddca3bb7cd9f615347949bc855af7",
+          "packed_size": 2151426,
+          "archive_size": 2264576,
+          "segments": 311,
+          "files": 173,
+          "segment_checks": 310,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-02-c0",
+          "index_load_ms": 1490.6,
+          "ready_ms": 1494.602,
+          "cold": true,
+          "read_bytes": 96398,
+          "image_packed_bytes": 10029983,
+          "fraction_of_layers": 0.009610983388506241,
+          "index_bytes": 96354
+        },
+        {
+          "id": "img-02-c1",
+          "index_load_ms": 1490.6,
+          "ready_ms": 0.489,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10029983,
+          "fraction_of_layers": 0,
+          "index_bytes": 96354
+        },
+        {
+          "id": "img-02-c2",
+          "index_load_ms": 1490.6,
+          "ready_ms": 0.427,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10029983,
+          "fraction_of_layers": 0,
+          "index_bytes": 96354
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2886858,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 833,
+        "list_checks": 747,
+        "write_checks": 62,
+        "tree_checks": 1,
+        "paths": 184,
+        "bytes_checked": 292341,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:dd5bfdb6b96ceddbdcdb57fc8e5afe278fed57f08388baa87fbae816d2308dce segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-02",
+        "packed_bytes": 10029983,
+        "lazy_ready_ms": 17.417,
+        "lazy_bytes": 96398,
+        "lazy_fraction": 0.009610983388506241,
+        "full_ready_ms": 3221.502,
+        "full_bytes": 10029983,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-03",
+      "manifest": "sha256:1a80029fbd6a5646ebd8ec6f7068e39a40e4269e96e23357a2b6897c8c3f6a80",
+      "layers": [
+        {
+          "digest": "sha256:40e96f1b119ce6c7b7d16b68c7c941a32de325af84621956f110f8f4cab58ff1",
+          "index_digest": "sha256:50899f431916bc663818694828c8cab14311c4f38347a9eb7e0015b68d0997a8",
+          "packed_size": 3043018,
+          "archive_size": 3160576,
+          "segments": 313,
+          "files": 174,
+          "segment_checks": 312,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1aef06fcc31a1842e21b59505d8a038f305e4388a1fc6df8404c6f1127bc7c88",
+          "index_digest": "sha256:d4369a7b4388d6b7315108c7e9876fe714828faf54d7365b637396d057605cc6",
+          "packed_size": 2001268,
+          "archive_size": 2115584,
+          "segments": 315,
+          "files": 174,
+          "segment_checks": 314,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:f66bd4bd160aef5c9536758c91ae9206be900b6b4e0a9c459b5dc1b8c14827eb",
+          "index_digest": "sha256:2d1d70a3a6fa9a1a905f4ad5b82ca7fc6435140879f7d2ee0107a42664481193",
+          "packed_size": 2206527,
+          "archive_size": 2321920,
+          "segments": 315,
+          "files": 173,
+          "segment_checks": 314,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:cc9c4d0e08f8ef446f260f357db3ee3e4613f38e7c6eed4e410a4b42c439fdd0",
+          "index_digest": "sha256:90deacd29868a9be2b658e24bd18b46960c7f57920c9cb9a37b7d9abf21ec435",
+          "packed_size": 2431007,
+          "archive_size": 2543616,
+          "segments": 308,
+          "files": 173,
+          "segment_checks": 307,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-03-c0",
+          "index_load_ms": 1475.484,
+          "ready_ms": 1479.458,
+          "cold": true,
+          "read_bytes": 95460,
+          "image_packed_bytes": 9681820,
+          "fraction_of_layers": 0.00985971645826921,
+          "index_bytes": 95416
+        },
+        {
+          "id": "img-03-c1",
+          "index_load_ms": 1475.484,
+          "ready_ms": 0.541,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9681820,
+          "fraction_of_layers": 0,
+          "index_bytes": 95416
+        },
+        {
+          "id": "img-03-c2",
+          "index_load_ms": 1475.484,
+          "ready_ms": 0.455,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9681820,
+          "fraction_of_layers": 0,
+          "index_bytes": 95416
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2895231,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 830,
+        "list_checks": 736,
+        "write_checks": 61,
+        "tree_checks": 1,
+        "paths": 209,
+        "bytes_checked": 345647,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:40e96f1b119ce6c7b7d16b68c7c941a32de325af84621956f110f8f4cab58ff1 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-03",
+        "packed_bytes": 9681820,
+        "lazy_ready_ms": 17.304,
+        "lazy_bytes": 95460,
+        "lazy_fraction": 0.00985971645826921,
+        "full_ready_ms": 3179.35,
+        "full_bytes": 9681820,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-04",
+      "manifest": "sha256:108b94fbcdc5879e8c04597be0b7af96ca07b722e53ba97b9af5d07c86c471ca",
+      "layers": [
+        {
+          "digest": "sha256:a7dccc80e472bd33d06dd20910fa2a673bd3e2f3c6867a0c22e2b337857d044a",
+          "index_digest": "sha256:56afd6907a5e6c6798fe977afd717fcb64cbfb8f11b28c81f90f079d061bf0db",
+          "packed_size": 3064838,
+          "archive_size": 3181568,
+          "segments": 311,
+          "files": 174,
+          "segment_checks": 310,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:00972ab944b453d95c26ea73b17837525b1cf000b9c4b2205259f6b46b9a0cc4",
+          "index_digest": "sha256:283d0ecb68e9b7cba0532469a7182af226bc2a25e273cdf0be8f2844805fda52",
+          "packed_size": 2316720,
+          "archive_size": 2430464,
+          "segments": 302,
+          "files": 174,
+          "segment_checks": 301,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:35837cf949514665e7e78eb792b090323110b1bea20fb76236763464586ae508",
+          "index_digest": "sha256:6b3141e9fd47766fab56be1ef19ad5e7bd523a036dd5a62b6d8ee04eecfe988a",
+          "packed_size": 2067149,
+          "archive_size": 2179584,
+          "segments": 294,
+          "files": 173,
+          "segment_checks": 293,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:98a9ca7654f659de0284b579953421678c176a896de2bd131bbb14b62ea5c102",
+          "index_digest": "sha256:7e3c331c6ccffbc5aeae32d434dc67c7fec0283045666b7dede26d0afe6f1081",
+          "packed_size": 2029164,
+          "archive_size": 2142720,
+          "segments": 294,
+          "files": 173,
+          "segment_checks": 293,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-04-c0",
+          "index_load_ms": 1432.352,
+          "ready_ms": 1436.326,
+          "cold": true,
+          "read_bytes": 92651,
+          "image_packed_bytes": 9477871,
+          "fraction_of_layers": 0.00977550760081035,
+          "index_bytes": 92607
+        },
+        {
+          "id": "img-04-c1",
+          "index_load_ms": 1432.352,
+          "ready_ms": 0.533,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9477871,
+          "fraction_of_layers": 0,
+          "index_bytes": 92607
+        },
+        {
+          "id": "img-04-c2",
+          "index_load_ms": 1432.352,
+          "ready_ms": 0.481,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9477871,
+          "fraction_of_layers": 0,
+          "index_bytes": 92607
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2766169,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 746,
+        "list_checks": 682,
+        "write_checks": 70,
+        "tree_checks": 1,
+        "paths": 192,
+        "bytes_checked": 271677,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:a7dccc80e472bd33d06dd20910fa2a673bd3e2f3c6867a0c22e2b337857d044a segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-04",
+        "packed_bytes": 9477871,
+        "lazy_ready_ms": 17.043,
+        "lazy_bytes": 92651,
+        "lazy_fraction": 0.00977550760081035,
+        "full_ready_ms": 3056.131,
+        "full_bytes": 9477871,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-05",
+      "manifest": "sha256:e3cf41b7a4dd0786adb1bf741422a71c57ec5fd666356c640b853808d652141c",
+      "layers": [
+        {
+          "digest": "sha256:cdd5ecde04436e39c94f9d8a6053e4a954a7b619c87c7e42e7bacf9fdbfa0ec1",
+          "index_digest": "sha256:f3214b22db5aead0145e3b2a9d31bcbdaaad7d974cf18846ccb3c6e69deca9ce",
+          "packed_size": 3255132,
+          "archive_size": 3372544,
+          "segments": 326,
+          "files": 174,
+          "segment_checks": 325,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:2498f10d6cce74276dcbfa82dccf8a600da7b9f189672b0256dd59499b6164f5",
+          "index_digest": "sha256:2ca542c8bc022080911a4af6a49a6ee76297798ec7b9b6c569f2008279aaee32",
+          "packed_size": 2310184,
+          "archive_size": 2424832,
+          "segments": 306,
+          "files": 174,
+          "segment_checks": 305,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:8af809f37ba494b62fb53a67c50659f6c4d039d9200e16c1c7a767d56f80fd16",
+          "index_digest": "sha256:315dab82e77c506f66793466c9237cd3bd419a71a3a3d902809e48ed0036df27",
+          "packed_size": 2320106,
+          "archive_size": 2434048,
+          "segments": 314,
+          "files": 173,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:2703df5722ec37b9eaeb1698c45aa87f57cacdf69718a8c9c06b87e18a165f78",
+          "index_digest": "sha256:235f3a3ce7c30558c2e41106ac3cb9a5f43f85ee5daa11b7e4b72d6d13ffb91d",
+          "packed_size": 2195490,
+          "archive_size": 2309120,
+          "segments": 322,
+          "files": 173,
+          "segment_checks": 321,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-05-c0",
+          "index_load_ms": 1493.519,
+          "ready_ms": 1496.985,
+          "cold": true,
+          "read_bytes": 96594,
+          "image_packed_bytes": 10080912,
+          "fraction_of_layers": 0.00958187116403754,
+          "index_bytes": 96550
+        },
+        {
+          "id": "img-05-c1",
+          "index_load_ms": 1493.519,
+          "ready_ms": 0.596,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10080912,
+          "fraction_of_layers": 0,
+          "index_bytes": 96550
+        },
+        {
+          "id": "img-05-c2",
+          "index_load_ms": 1493.519,
+          "ready_ms": 0.796,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10080912,
+          "fraction_of_layers": 0,
+          "index_bytes": 96550
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2928651,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 928,
+        "list_checks": 798,
+        "write_checks": 63,
+        "tree_checks": 1,
+        "paths": 210,
+        "bytes_checked": 357444,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:cdd5ecde04436e39c94f9d8a6053e4a954a7b619c87c7e42e7bacf9fdbfa0ec1 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-05",
+        "packed_bytes": 10080912,
+        "lazy_ready_ms": 17.061,
+        "lazy_bytes": 96594,
+        "lazy_fraction": 0.00958187116403754,
+        "full_ready_ms": 3261.483,
+        "full_bytes": 10080912,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-06",
+      "manifest": "sha256:40ad02d4a46447dc99df21d4fd5cc6d1216c7139ca08c1949ed94fbe17c06087",
+      "layers": [
+        {
+          "digest": "sha256:5c4a1e81121303e93388e8ddcf55b82712eaaedf108d9142e86868cb7fec20e8",
+          "index_digest": "sha256:460414b15d0707ef58634cc978e3d83e3516b40414aaf10768fbbaedcc919ec7",
+          "packed_size": 2805669,
+          "archive_size": 2924032,
+          "segments": 317,
+          "files": 174,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:54889a1da1ada8f209a826e937c9245fe4f8532ad954081f4030c27b7354e85c",
+          "index_digest": "sha256:8f7fd6a96d213071e66e3164025d20ab18a3b3907877661b5f7a2a667141e157",
+          "packed_size": 2319476,
+          "archive_size": 2433024,
+          "segments": 307,
+          "files": 174,
+          "segment_checks": 306,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b6f0772bb1c2e5058ed5b2be4d6bb7b3abf93f6bc116ed3b6157091bcd7e9a16",
+          "index_digest": "sha256:196102abe5f31f6237f9b0ecdc8eeb9e85bcd2d2ca08d9650dc70978793908f8",
+          "packed_size": 2519810,
+          "archive_size": 2634752,
+          "segments": 308,
+          "files": 173,
+          "segment_checks": 307,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b070e0004b5e54e82d21bd35b0d27e0f2c255d33037264a5b414b65b91b49952",
+          "index_digest": "sha256:f714b6c710f420be87a95066af3ac1869b85818019d61eca1f50ee413309cccb",
+          "packed_size": 2269810,
+          "archive_size": 2383872,
+          "segments": 302,
+          "files": 173,
+          "segment_checks": 301,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-06-c0",
+          "index_load_ms": 1472.93,
+          "ready_ms": 1477.788,
+          "cold": true,
+          "read_bytes": 94512,
+          "image_packed_bytes": 9914765,
+          "fraction_of_layers": 0.009532449836178668,
+          "index_bytes": 94468
+        },
+        {
+          "id": "img-06-c1",
+          "index_load_ms": 1472.93,
+          "ready_ms": 1.296,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9914765,
+          "fraction_of_layers": 0,
+          "index_bytes": 94468
+        },
+        {
+          "id": "img-06-c2",
+          "index_load_ms": 1472.93,
+          "ready_ms": 1.126,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9914765,
+          "fraction_of_layers": 0,
+          "index_bytes": 94468
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3004701,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 737,
+        "list_checks": 679,
+        "write_checks": 56,
+        "tree_checks": 1,
+        "paths": 213,
+        "bytes_checked": 259898,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:5c4a1e81121303e93388e8ddcf55b82712eaaedf108d9142e86868cb7fec20e8 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-06",
+        "packed_bytes": 9914765,
+        "lazy_ready_ms": 17.393,
+        "lazy_bytes": 94512,
+        "lazy_fraction": 0.009532449836178668,
+        "full_ready_ms": 3270.589,
+        "full_bytes": 9914765,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-07",
+      "manifest": "sha256:5923ecd9b2bfda6fe1f0af1bb479afafed2647dfa853b396742c74d10281a6eb",
+      "layers": [
+        {
+          "digest": "sha256:0aaec7437a3f2590c63870c98c7ce1545e9d1f5b6276d58609e46b16d487192a",
+          "index_digest": "sha256:47c0f6e82594911a4d32f8c88c4fb4cef1cd80a17da84071972b3e5746b1cd88",
+          "packed_size": 2969694,
+          "archive_size": 3088896,
+          "segments": 325,
+          "files": 174,
+          "segment_checks": 324,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:3fe2e9d320c8aee7d0b3a92e5799c6fade97bc37000efdfaccd7a4532d32dee2",
+          "index_digest": "sha256:0eda71a87c4b4acd6e8327792f7bd21d20066d77b59d766fa658a1ad1e947547",
+          "packed_size": 2471817,
+          "archive_size": 2586112,
+          "segments": 306,
+          "files": 174,
+          "segment_checks": 305,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:3a0727458884b8ee176474c13f1537c50950c3b7493264c99a256c654da95dd7",
+          "index_digest": "sha256:66b0590cab8162de9caee5cad14360e2dfc282f227b2744f31f5c7dec639a16b",
+          "packed_size": 2021581,
+          "archive_size": 2135552,
+          "segments": 308,
+          "files": 173,
+          "segment_checks": 307,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:a343c0f8ca1cdb957991c043860d15a34c15104c347339c93d2cdbb64e9cd093",
+          "index_digest": "sha256:bceb9998a83fd396f17acf8dc7fd79f63bfab5c1a339c102febd0c5c6ee49a97",
+          "packed_size": 2134164,
+          "archive_size": 2248704,
+          "segments": 310,
+          "files": 173,
+          "segment_checks": 309,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-07-c0",
+          "index_load_ms": 1484.286,
+          "ready_ms": 1489.11,
+          "cold": true,
+          "read_bytes": 95382,
+          "image_packed_bytes": 9597256,
+          "fraction_of_layers": 0.009938465744792053,
+          "index_bytes": 95338
+        },
+        {
+          "id": "img-07-c1",
+          "index_load_ms": 1484.286,
+          "ready_ms": 1.181,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9597256,
+          "fraction_of_layers": 0,
+          "index_bytes": 95338
+        },
+        {
+          "id": "img-07-c2",
+          "index_load_ms": 1484.286,
+          "ready_ms": 1.107,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9597256,
+          "fraction_of_layers": 0,
+          "index_bytes": 95338
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2869672,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 805,
+        "list_checks": 755,
+        "write_checks": 68,
+        "tree_checks": 1,
+        "paths": 206,
+        "bytes_checked": 254961,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:0aaec7437a3f2590c63870c98c7ce1545e9d1f5b6276d58609e46b16d487192a segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-07",
+        "packed_bytes": 9597256,
+        "lazy_ready_ms": 17.837,
+        "lazy_bytes": 95382,
+        "lazy_fraction": 0.009938465744792053,
+        "full_ready_ms": 3306.948,
+        "full_bytes": 9597256,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-08",
+      "manifest": "sha256:849a3ee7eceb21e7bb2b0695682464774cc68088c4af3b6f0d71cd2012ba8c44",
+      "layers": [
+        {
+          "digest": "sha256:10f70bff7a1164ed60fe3273fb67dc2ae3a9d0b4427fb3f150e43103e730ffdd",
+          "index_digest": "sha256:5b38927cbaea56aeadfcef7b821292dd4ee3851a3842ff91d4753858f2964241",
+          "packed_size": 2896482,
+          "archive_size": 3013632,
+          "segments": 327,
+          "files": 174,
+          "segment_checks": 326,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:2606e8e329698e4c87051cb69ea533f621f30c223d89b6c7affe1af12f4355c7",
+          "index_digest": "sha256:eaca5f1c55e72ef4a4b8feedeece32e0a810aca46ae137ac3057c0e0c5ef06c1",
+          "packed_size": 2164413,
+          "archive_size": 2278912,
+          "segments": 316,
+          "files": 174,
+          "segment_checks": 315,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:69de098023ded10aed74b2c13a060eafa4d4aec0d74b1cd7b6627fdad059d482",
+          "index_digest": "sha256:ba44f0d9623ee9cb9d81b5e8db4e418d41fe6faedca9d1b37e2c37019b09d6d7",
+          "packed_size": 2398562,
+          "archive_size": 2512896,
+          "segments": 317,
+          "files": 173,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:3aa6a7f9f9b031749d981684914e1680590431d33000f8a3a00d98821c0cacb8",
+          "index_digest": "sha256:1f5a9d68396a5755db3968ac2afc34685c15405a8546e3341934d98e94470c98",
+          "packed_size": 2312497,
+          "archive_size": 2426368,
+          "segments": 313,
+          "files": 173,
+          "segment_checks": 312,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-08-c0",
+          "index_load_ms": 1503.323,
+          "ready_ms": 1508.182,
+          "cold": true,
+          "read_bytes": 96864,
+          "image_packed_bytes": 9771954,
+          "fraction_of_layers": 0.009912449444604426,
+          "index_bytes": 96820
+        },
+        {
+          "id": "img-08-c1",
+          "index_load_ms": 1503.323,
+          "ready_ms": 1.218,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9771954,
+          "fraction_of_layers": 0,
+          "index_bytes": 96820
+        },
+        {
+          "id": "img-08-c2",
+          "index_load_ms": 1503.323,
+          "ready_ms": 0.926,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9771954,
+          "fraction_of_layers": 0,
+          "index_bytes": 96820
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2522177,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 838,
+        "list_checks": 752,
+        "write_checks": 62,
+        "tree_checks": 1,
+        "paths": 219,
+        "bytes_checked": 298784,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:10f70bff7a1164ed60fe3273fb67dc2ae3a9d0b4427fb3f150e43103e730ffdd segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-08",
+        "packed_bytes": 9771954,
+        "lazy_ready_ms": 17.747,
+        "lazy_bytes": 96864,
+        "lazy_fraction": 0.009912449444604426,
+        "full_ready_ms": 3384.462,
+        "full_bytes": 9771954,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-09",
+      "manifest": "sha256:3088da8ac135c02f17308cdf0d5db27b646a68be5f5b170592ad18249e5b4aad",
+      "layers": [
+        {
+          "digest": "sha256:ad79963c5924a79fc3587f25e5b393996fdc3bf9bd5b86b5076161ee9bd88c3f",
+          "index_digest": "sha256:0271d1ef6e015ef63e3201b57d8e99baeee3efc5fc67112842fbd865a2a3c1b5",
+          "packed_size": 3187507,
+          "archive_size": 3305472,
+          "segments": 323,
+          "files": 174,
+          "segment_checks": 322,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:a40ea8e0fd776e975675b9347929752def7f54a9c022b037d28d122b5ef35186",
+          "index_digest": "sha256:3db8e7ee2777cf4f1a203823359cee48f1ef62101f03ac8786febdc5e9dab3b8",
+          "packed_size": 2319899,
+          "archive_size": 2434560,
+          "segments": 313,
+          "files": 174,
+          "segment_checks": 312,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:d292de0e533a94555dfdd234c7003bfb0c0c373d4515cb1c1630121d1d31e60a",
+          "index_digest": "sha256:969c7618dc1b3fe41bee792d3053306d641b90ac85536cd99f1636c25e9aebdb",
+          "packed_size": 2146324,
+          "archive_size": 2258432,
+          "segments": 298,
+          "files": 173,
+          "segment_checks": 297,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:262cad89cf878b1813b1b921eec7dfa4fdf16c297c612dacd89a35216c0df9ce",
+          "index_digest": "sha256:38d23ed803d6e034c065772ba6c45d6b4bd00b24509721a18bb7c03accc6b8e5",
+          "packed_size": 2263037,
+          "archive_size": 2378752,
+          "segments": 317,
+          "files": 173,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-09-c0",
+          "index_load_ms": 1486.396,
+          "ready_ms": 1491.167,
+          "cold": true,
+          "read_bytes": 95541,
+          "image_packed_bytes": 9916767,
+          "fraction_of_layers": 0.009634289078285292,
+          "index_bytes": 95497
+        },
+        {
+          "id": "img-09-c1",
+          "index_load_ms": 1486.396,
+          "ready_ms": 1.212,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9916767,
+          "fraction_of_layers": 0,
+          "index_bytes": 95497
+        },
+        {
+          "id": "img-09-c2",
+          "index_load_ms": 1486.396,
+          "ready_ms": 1.136,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9916767,
+          "fraction_of_layers": 0,
+          "index_bytes": 95497
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2996685,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 890,
+        "list_checks": 761,
+        "write_checks": 73,
+        "tree_checks": 1,
+        "paths": 225,
+        "bytes_checked": 356802,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:ad79963c5924a79fc3587f25e5b393996fdc3bf9bd5b86b5076161ee9bd88c3f segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-09",
+        "packed_bytes": 9916767,
+        "lazy_ready_ms": 17.152,
+        "lazy_bytes": 95541,
+        "lazy_fraction": 0.009634289078285292,
+        "full_ready_ms": 3306.462,
+        "full_bytes": 9916767,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-10",
+      "manifest": "sha256:a351a0adc28ea53e8bedd4543f2de33e02dc482028222f2decc794bfb6bc27b2",
+      "layers": [
+        {
+          "digest": "sha256:314b1b24b413d40cffd8eb7cb36cb1ba2373a0f635f40331ff37aaa5815ca931",
+          "index_digest": "sha256:6aab32c9ab6e784ecfe02e8366c5c4a7760a7ba0e8d01eeac733da9bff8fa4c6",
+          "packed_size": 3253636,
+          "archive_size": 3371520,
+          "segments": 328,
+          "files": 174,
+          "segment_checks": 327,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:157576308afb76c655b7ec02037e72f71875b86b02a1dba28e56fa03093069f8",
+          "index_digest": "sha256:453cf7d38ff164372e3344ef4ea5730a5081904540865bfc723c54b963998f82",
+          "packed_size": 2275413,
+          "archive_size": 2389504,
+          "segments": 318,
+          "files": 174,
+          "segment_checks": 317,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:93fe9b3a15e2719d46bebcec7ed7cf768a56cc5f4737e81c37678561aa356f54",
+          "index_digest": "sha256:29871d37d5296013d8195c02652f752f7e18c5d177e38af460c0f2cb4e3120a7",
+          "packed_size": 2437345,
+          "archive_size": 2551296,
+          "segments": 314,
+          "files": 173,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:fd8ab763ee4e6f062e99ee3ce3f05cc649cb536ebf73835a47984df331a1211c",
+          "index_digest": "sha256:b69e44ede51be246b10aa0ff6e4f42de4cb8cde81275137e4cf7a35c1b42fc32",
+          "packed_size": 2056463,
+          "archive_size": 2171392,
+          "segments": 308,
+          "files": 173,
+          "segment_checks": 307,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-10-c0",
+          "index_load_ms": 1505.446,
+          "ready_ms": 1509.759,
+          "cold": true,
+          "read_bytes": 96563,
+          "image_packed_bytes": 10022857,
+          "fraction_of_layers": 0.009634278928652778,
+          "index_bytes": 96519
+        },
+        {
+          "id": "img-10-c1",
+          "index_load_ms": 1505.446,
+          "ready_ms": 1.394,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10022857,
+          "fraction_of_layers": 0,
+          "index_bytes": 96519
+        },
+        {
+          "id": "img-10-c2",
+          "index_load_ms": 1505.446,
+          "ready_ms": 1.067,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10022857,
+          "fraction_of_layers": 0,
+          "index_bytes": 96519
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2790881,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 813,
+        "list_checks": 745,
+        "write_checks": 66,
+        "tree_checks": 1,
+        "paths": 201,
+        "bytes_checked": 310934,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:314b1b24b413d40cffd8eb7cb36cb1ba2373a0f635f40331ff37aaa5815ca931 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-10",
+        "packed_bytes": 10022857,
+        "lazy_ready_ms": 17.837,
+        "lazy_bytes": 96563,
+        "lazy_fraction": 0.009634278928652778,
+        "full_ready_ms": 3343.721,
+        "full_bytes": 10022857,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-11",
+      "manifest": "sha256:a17f438056a3a399b6b36b6ac4efcab3e8f4dbb54e023b2505e1607987c9a87b",
+      "layers": [
+        {
+          "digest": "sha256:d460b14f81d646acfa40ba6a28f3db2f66a937c3db9f5ee07a7f7d64bf73cd61",
+          "index_digest": "sha256:a9bd77f0199c1b022578eb9fca1c425fe5294c544b67d7a1bf7f6afc1f20cbed",
+          "packed_size": 3203795,
+          "archive_size": 3321344,
+          "segments": 331,
+          "files": 174,
+          "segment_checks": 330,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1c692b34799f5b11cd869319a6c86b5732c6764462033f480eb6131fb31d14f5",
+          "index_digest": "sha256:7384f08c7d99f31dfe0faefb6eb9bfae1e9fb29e5f3e41e463d19cd8d008d822",
+          "packed_size": 2054903,
+          "archive_size": 2169344,
+          "segments": 304,
+          "files": 174,
+          "segment_checks": 303,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:091e4b683cfd4a14c00671df05c12a7f9ffe7ba46a553f8e6eff52e38bc9ada2",
+          "index_digest": "sha256:4f909602e006e40a4bb304691099516476ff56b5d4ebc854a9661ed60335c358",
+          "packed_size": 2150585,
+          "archive_size": 2264064,
+          "segments": 307,
+          "files": 173,
+          "segment_checks": 306,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:cb1f4ce6bd2ebdb4ffc426320b974a498760d8f49eef2f70f6c9e9f035804869",
+          "index_digest": "sha256:7fb495bec323db4164da9f59f0a96d96e30ab752443a7b9cadf98e3223708208",
+          "packed_size": 2228740,
+          "archive_size": 2342912,
+          "segments": 312,
+          "files": 173,
+          "segment_checks": 311,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-11-c0",
+          "index_load_ms": 1490.723,
+          "ready_ms": 1494.892,
+          "cold": true,
+          "read_bytes": 95695,
+          "image_packed_bytes": 9638023,
+          "fraction_of_layers": 0.00992890346910357,
+          "index_bytes": 95651
+        },
+        {
+          "id": "img-11-c1",
+          "index_load_ms": 1490.723,
+          "ready_ms": 1.157,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9638023,
+          "fraction_of_layers": 0,
+          "index_bytes": 95651
+        },
+        {
+          "id": "img-11-c2",
+          "index_load_ms": 1490.723,
+          "ready_ms": 1.085,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9638023,
+          "fraction_of_layers": 0,
+          "index_bytes": 95651
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2964070,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 853,
+        "list_checks": 737,
+        "write_checks": 76,
+        "tree_checks": 1,
+        "paths": 232,
+        "bytes_checked": 328642,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:d460b14f81d646acfa40ba6a28f3db2f66a937c3db9f5ee07a7f7d64bf73cd61 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-11",
+        "packed_bytes": 9638023,
+        "lazy_ready_ms": 18.025,
+        "lazy_bytes": 95695,
+        "lazy_fraction": 0.00992890346910357,
+        "full_ready_ms": 3336.921,
+        "full_bytes": 9638023,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-12",
+      "manifest": "sha256:e2af342746b3e52d7d5d812084fb76679feaf862a10514e9a0ec0e7f666da542",
+      "layers": [
+        {
+          "digest": "sha256:ee304910075d8c6ffbda8577a64e12c0369ec25c690f1b915bfd91c10461e627",
+          "index_digest": "sha256:e8332b1bfa0f9a0298133889294324bc0a5474e0036701da97ef9c3b437bf815",
+          "packed_size": 2890813,
+          "archive_size": 3010048,
+          "segments": 321,
+          "files": 174,
+          "segment_checks": 320,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:37ff49d8b35251ced922a5d71c6416cdc29a604d3e5383b9896a944c7cb624d7",
+          "index_digest": "sha256:5ebf6c5f8b709979629e39d37f08a51c2f24b8a745a637b30b3845fd12d5636d",
+          "packed_size": 2259381,
+          "archive_size": 2373632,
+          "segments": 307,
+          "files": 174,
+          "segment_checks": 306,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:dbaf41273877ffc55821fe3f9c1a83d24576233b9be4f601d2d67010b95938df",
+          "index_digest": "sha256:2d6c6726ba5bf39ae7a8785c67002ad666e7d32ac43ac2760e828c2cc0350ec1",
+          "packed_size": 2436829,
+          "archive_size": 2549760,
+          "segments": 304,
+          "files": 173,
+          "segment_checks": 303,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:91acd3e4fe896b949bb5a30389f81226579a712bcb337eefdfabd1ec18c4f2fa",
+          "index_digest": "sha256:12b2600caab6df8509854f19502075a60e478edc96a7bb6dfdd9ccaa3ae0f755",
+          "packed_size": 2367107,
+          "archive_size": 2480640,
+          "segments": 303,
+          "files": 173,
+          "segment_checks": 302,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-12-c0",
+          "index_load_ms": 1475.424,
+          "ready_ms": 1480.188,
+          "cold": true,
+          "read_bytes": 94613,
+          "image_packed_bytes": 9954130,
+          "fraction_of_layers": 0.009504898971582649,
+          "index_bytes": 94569
+        },
+        {
+          "id": "img-12-c1",
+          "index_load_ms": 1475.424,
+          "ready_ms": 1.641,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9954130,
+          "fraction_of_layers": 0,
+          "index_bytes": 94569
+        },
+        {
+          "id": "img-12-c2",
+          "index_load_ms": 1475.424,
+          "ready_ms": 1.373,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9954130,
+          "fraction_of_layers": 0,
+          "index_bytes": 94569
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3103133,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 811,
+        "list_checks": 719,
+        "write_checks": 53,
+        "tree_checks": 1,
+        "paths": 208,
+        "bytes_checked": 339642,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:ee304910075d8c6ffbda8577a64e12c0369ec25c690f1b915bfd91c10461e627 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-12",
+        "packed_bytes": 9954130,
+        "lazy_ready_ms": 17.764,
+        "lazy_bytes": 94613,
+        "lazy_fraction": 0.009504898971582649,
+        "full_ready_ms": 3272.252,
+        "full_bytes": 9954130,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-13",
+      "manifest": "sha256:fc3cc33fca96983db8ac412dcf490eba8aa3137e71e43ed945c30d1d39f45eaa",
+      "layers": [
+        {
+          "digest": "sha256:ea74bb6a810d186828cf08621e33735111f846c809944399a127a177ab410c7c",
+          "index_digest": "sha256:a5353010fd082e9134d194b4eea350a03e13fa59657679773fa83ecb078b5268",
+          "packed_size": 3218176,
+          "archive_size": 3336704,
+          "segments": 325,
+          "files": 174,
+          "segment_checks": 324,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:a9b1d98abfc40725f4dcae4f1f9bd381c9f329437057c9f8528069b0873521e7",
+          "index_digest": "sha256:69d8d42a211be213b1c9a658fb4947026b96068b8d0ac164eec3a36ff67be1f9",
+          "packed_size": 2410071,
+          "archive_size": 2523648,
+          "segments": 310,
+          "files": 174,
+          "segment_checks": 309,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:449c4bd52ed2a7624375ab591c3ac1ac087b796a80c04ae82853005c212d968d",
+          "index_digest": "sha256:e7f568aca0f46a90be95965710d2184a9325c05c8088bdf2dd73512915a7c1e0",
+          "packed_size": 2222584,
+          "archive_size": 2335744,
+          "segments": 300,
+          "files": 173,
+          "segment_checks": 299,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1ee5dc499e1606a3d7db8d349728715c686868c5c8f583977dbf634bb9ffb280",
+          "index_digest": "sha256:410e829f3aba7439ef833799b16ae1aaadea3b3705cbc5523b4be68e62c47a1a",
+          "packed_size": 2365199,
+          "archive_size": 2479616,
+          "segments": 313,
+          "files": 173,
+          "segment_checks": 312,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-13-c0",
+          "index_load_ms": 1483.253,
+          "ready_ms": 1487.963,
+          "cold": true,
+          "read_bytes": 95348,
+          "image_packed_bytes": 10216030,
+          "fraction_of_layers": 0.00933317541158356,
+          "index_bytes": 95304
+        },
+        {
+          "id": "img-13-c1",
+          "index_load_ms": 1483.253,
+          "ready_ms": 1.273,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10216030,
+          "fraction_of_layers": 0,
+          "index_bytes": 95304
+        },
+        {
+          "id": "img-13-c2",
+          "index_load_ms": 1483.253,
+          "ready_ms": 1.381,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10216030,
+          "fraction_of_layers": 0,
+          "index_bytes": 95304
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2837023,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 801,
+        "list_checks": 754,
+        "write_checks": 64,
+        "tree_checks": 1,
+        "paths": 207,
+        "bytes_checked": 303300,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:ea74bb6a810d186828cf08621e33735111f846c809944399a127a177ab410c7c segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-13",
+        "packed_bytes": 10216030,
+        "lazy_ready_ms": 17.153,
+        "lazy_bytes": 95348,
+        "lazy_fraction": 0.00933317541158356,
+        "full_ready_ms": 3260.538,
+        "full_bytes": 10216030,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-14",
+      "manifest": "sha256:607a4278189068073b4e821116d6a92317f617bacd11cbc770538fcffcf60ddc",
+      "layers": [
+        {
+          "digest": "sha256:a34a62e48d72cd60141a2c6d07b1fa97206ea6c20c10addf3fc8cae0af0ac740",
+          "index_digest": "sha256:dfc4b30f84e993216e2f357f7f9611c74a151d16a9bfea95e2907747bc7d9a21",
+          "packed_size": 3155955,
+          "archive_size": 3271680,
+          "segments": 315,
+          "files": 174,
+          "segment_checks": 314,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1ae480a2cf822502fd36adc85da223d8dca3a527f7471809fd6ed74874d749cd",
+          "index_digest": "sha256:3e1a1d76166ef8c92db6d927c45f8235fc9d238e43c83afb8df91dd1aca0b8eb",
+          "packed_size": 2470281,
+          "archive_size": 2585600,
+          "segments": 315,
+          "files": 174,
+          "segment_checks": 314,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1b9fec329ce3b227f8e72b256ea1831f30ad4557e09215279e59e3560b58957f",
+          "index_digest": "sha256:7cd853b1a03f79f65d125e2a017710c80021bfd2ae270c5855d974552ed4a8aa",
+          "packed_size": 2422999,
+          "archive_size": 2535936,
+          "segments": 309,
+          "files": 173,
+          "segment_checks": 308,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b4baa522aee93991b6fb6d44a73c833308e8481dec3ce908f09cd9382239498f",
+          "index_digest": "sha256:568f8079cf76a2b157bbc704ce5c4dbbc8aeb0dbe4703ff2a1cb614b5ecaa098",
+          "packed_size": 2142111,
+          "archive_size": 2255360,
+          "segments": 296,
+          "files": 173,
+          "segment_checks": 295,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-14-c0",
+          "index_load_ms": 1476.783,
+          "ready_ms": 1481.539,
+          "cold": true,
+          "read_bytes": 94552,
+          "image_packed_bytes": 10191346,
+          "fraction_of_layers": 0.009277675392435895,
+          "index_bytes": 94508
+        },
+        {
+          "id": "img-14-c1",
+          "index_load_ms": 1476.783,
+          "ready_ms": 1.214,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10191346,
+          "fraction_of_layers": 0,
+          "index_bytes": 94508
+        },
+        {
+          "id": "img-14-c2",
+          "index_load_ms": 1476.783,
+          "ready_ms": 1.143,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10191346,
+          "fraction_of_layers": 0,
+          "index_bytes": 94508
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2877700,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 755,
+        "list_checks": 665,
+        "write_checks": 57,
+        "tree_checks": 1,
+        "paths": 222,
+        "bytes_checked": 310606,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:a34a62e48d72cd60141a2c6d07b1fa97206ea6c20c10addf3fc8cae0af0ac740 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-14",
+        "packed_bytes": 10191346,
+        "lazy_ready_ms": 17.377,
+        "lazy_bytes": 94552,
+        "lazy_fraction": 0.009277675392435895,
+        "full_ready_ms": 3273.287,
+        "full_bytes": 10191346,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-15",
+      "manifest": "sha256:864d3d51250acb55517c394efc26a4c429db2c6891b406ab291154f7a965fe51",
+      "layers": [
+        {
+          "digest": "sha256:fb98788d657e00e22582021684977d698cac0b74bd5d6770bf068e8b6490ffc4",
+          "index_digest": "sha256:73b3dd1a65b2824dd1c1247181eb00afb32d1a38deed7ea2b688df052c840e8a",
+          "packed_size": 2993721,
+          "archive_size": 3110912,
+          "segments": 314,
+          "files": 174,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:e4f4b1cabf216a99d66295e7f56c0a9470b37699f9e95bc519658060ad79062f",
+          "index_digest": "sha256:ce38c77aa6a12a2f7eae839cf31c7bece45079b35608bcf8655c1cd7dd66813d",
+          "packed_size": 2165695,
+          "archive_size": 2278912,
+          "segments": 311,
+          "files": 174,
+          "segment_checks": 310,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:8a51b8ab51129e5f794222ad3b347ef72cf6a41280e61f0ecd2d01f64dcc6791",
+          "index_digest": "sha256:9ae75bf071cd88449e0d335a824df94bf9d593fb112461f53b163791d66f5ee1",
+          "packed_size": 2530051,
+          "archive_size": 2644992,
+          "segments": 317,
+          "files": 173,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:caca3bfaa9ea288823efdbebb37494aa6e78a4d10fb4eaf970941a2a82f53560",
+          "index_digest": "sha256:a7143959ad3d290408c58068bc8fb0f5321b151dce043d434ada05318aad1314",
+          "packed_size": 2244150,
+          "archive_size": 2357760,
+          "segments": 301,
+          "files": 173,
+          "segment_checks": 300,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-15-c0",
+          "index_load_ms": 1480.28,
+          "ready_ms": 1485.565,
+          "cold": true,
+          "read_bytes": 95007,
+          "image_packed_bytes": 9933617,
+          "fraction_of_layers": 0.009564189962226247,
+          "index_bytes": 94963
+        },
+        {
+          "id": "img-15-c1",
+          "index_load_ms": 1480.28,
+          "ready_ms": 1.297,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9933617,
+          "fraction_of_layers": 0,
+          "index_bytes": 94963
+        },
+        {
+          "id": "img-15-c2",
+          "index_load_ms": 1480.28,
+          "ready_ms": 1.084,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9933617,
+          "fraction_of_layers": 0,
+          "index_bytes": 94963
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2980472,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 750,
+        "list_checks": 695,
+        "write_checks": 64,
+        "tree_checks": 1,
+        "paths": 215,
+        "bytes_checked": 250249,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:fb98788d657e00e22582021684977d698cac0b74bd5d6770bf068e8b6490ffc4 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-15",
+        "packed_bytes": 9933617,
+        "lazy_ready_ms": 17.539,
+        "lazy_bytes": 95007,
+        "lazy_fraction": 0.009564189962226247,
+        "full_ready_ms": 3306.809,
+        "full_bytes": 9933617,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-16",
+      "manifest": "sha256:a22126c1217fbe9303f65833a1d86387f6ee8877c07c87e7dd5abbd103c65d90",
+      "layers": [
+        {
+          "digest": "sha256:f666768d2f6544a70cb68861edeb7193be8f513fdcf83f52287c86af59541815",
+          "index_digest": "sha256:c6ef02d39974e4dc1f5bb66def2dd6c51c0379706ae066cec6709d814d83bd2c",
+          "packed_size": 3218264,
+          "archive_size": 3336704,
+          "segments": 327,
+          "files": 174,
+          "segment_checks": 326,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:62d4b9867c7128a2a22191093ad60745062ed01426c06a7af289d0570f3d72f7",
+          "index_digest": "sha256:76d4b471b7fd694be79b67dea20cc28fd0d8c5a3f1d0cadb476d5f7f2efdac33",
+          "packed_size": 2406718,
+          "archive_size": 2522112,
+          "segments": 310,
+          "files": 174,
+          "segment_checks": 309,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:40e2dcd7bfc7ea0ea914c3a57b89d80a0c6c13321dbfc5bcc8dc64335c258690",
+          "index_digest": "sha256:c8c553c343076e1aeb0b1d5869236208c54018737dab268833df0f6b14522ff7",
+          "packed_size": 2142950,
+          "archive_size": 2257408,
+          "segments": 317,
+          "files": 173,
+          "segment_checks": 316,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:9a094c3373b1e66a3260f088278b83999d7b4e0600ea29ad04d0b0c31472e57d",
+          "index_digest": "sha256:e40e57fa06e281d248893df13599678563b194386b1072707d3468dcd5a522c7",
+          "packed_size": 2298070,
+          "archive_size": 2412032,
+          "segments": 309,
+          "files": 173,
+          "segment_checks": 308,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-16-c0",
+          "index_load_ms": 1494.891,
+          "ready_ms": 1499.405,
+          "cold": true,
+          "read_bytes": 96203,
+          "image_packed_bytes": 10066002,
+          "fraction_of_layers": 0.009557220433693536,
+          "index_bytes": 96159
+        },
+        {
+          "id": "img-16-c1",
+          "index_load_ms": 1494.891,
+          "ready_ms": 0.978,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10066002,
+          "fraction_of_layers": 0,
+          "index_bytes": 96159
+        },
+        {
+          "id": "img-16-c2",
+          "index_load_ms": 1494.891,
+          "ready_ms": 0.905,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10066002,
+          "fraction_of_layers": 0,
+          "index_bytes": 96159
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3033621,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 828,
+        "list_checks": 729,
+        "write_checks": 67,
+        "tree_checks": 1,
+        "paths": 208,
+        "bytes_checked": 323284,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:f666768d2f6544a70cb68861edeb7193be8f513fdcf83f52287c86af59541815 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-16",
+        "packed_bytes": 10066002,
+        "lazy_ready_ms": 17.664,
+        "lazy_bytes": 96203,
+        "lazy_fraction": 0.009557220433693536,
+        "full_ready_ms": 3296.361,
+        "full_bytes": 10066002,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-17",
+      "manifest": "sha256:9958339abd9f4008fb8422e96f2e2a7452daf8e3e121f5de23293e3c5b0c12f0",
+      "layers": [
+        {
+          "digest": "sha256:e261a28ea56758fe7290f67d0a11399c3757e8dadb717184088620221ec87ed8",
+          "index_digest": "sha256:1277a2eaeca62308a9ab42eb524cb69b7df104aad1d9e3197f2d6fbc7628aa90",
+          "packed_size": 3070387,
+          "archive_size": 3188224,
+          "segments": 320,
+          "files": 174,
+          "segment_checks": 319,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:ba48c015a2ca877d50273df50b14bef80a39a95b1339881ace6906536b889923",
+          "index_digest": "sha256:0514c6a8326599f0ab881963d4e71e9676d6c49eae4f31a0f59a3bd9abf2af2c",
+          "packed_size": 2280666,
+          "archive_size": 2394112,
+          "segments": 309,
+          "files": 174,
+          "segment_checks": 308,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:a35eb1e5444a44d91dec36540b2e8b0a4668388d17edcb504d0624977d434ecb",
+          "index_digest": "sha256:3897a8d67cde1a59f54fb824402d1baf3f66e48d4f239f464239660674fe6596",
+          "packed_size": 2184403,
+          "archive_size": 2297856,
+          "segments": 304,
+          "files": 173,
+          "segment_checks": 303,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:1d0931d9ad0cc082be146661951ce6c81210e450b5c465359de0ad6cf851c41d",
+          "index_digest": "sha256:490f9d44f2fcc85c438b9ed6f019c2aa99e542d9b8fdd1d954d051f247cb74ff",
+          "packed_size": 2075694,
+          "archive_size": 2188288,
+          "segments": 301,
+          "files": 173,
+          "segment_checks": 300,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-17-c0",
+          "index_load_ms": 1462.921,
+          "ready_ms": 1466.847,
+          "cold": true,
+          "read_bytes": 94561,
+          "image_packed_bytes": 9611150,
+          "fraction_of_layers": 0.009838676953330247,
+          "index_bytes": 94517
+        },
+        {
+          "id": "img-17-c1",
+          "index_load_ms": 1462.921,
+          "ready_ms": 0.446,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9611150,
+          "fraction_of_layers": 0,
+          "index_bytes": 94517
+        },
+        {
+          "id": "img-17-c2",
+          "index_load_ms": 1462.921,
+          "ready_ms": 0.413,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9611150,
+          "fraction_of_layers": 0,
+          "index_bytes": 94517
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2810835,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 734,
+        "list_checks": 707,
+        "write_checks": 72,
+        "tree_checks": 1,
+        "paths": 197,
+        "bytes_checked": 248090,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:e261a28ea56758fe7290f67d0a11399c3757e8dadb717184088620221ec87ed8 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-17",
+        "packed_bytes": 9611150,
+        "lazy_ready_ms": 17.527,
+        "lazy_bytes": 94561,
+        "lazy_fraction": 0.009838676953330247,
+        "full_ready_ms": 3241.267,
+        "full_bytes": 9611150,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-18",
+      "manifest": "sha256:956c72e9627112ce85f7ccc3cb3b5927d67c130fd48821498ddf09aa0a981885",
+      "layers": [
+        {
+          "digest": "sha256:fa71d137e766e68f1a31f8526debc5e103242c4d54a2cea2242c9775bf8ff416",
+          "index_digest": "sha256:df7f4d99b7a3b23dbb950d39cb12eff2ccf0cf14f5f91b17855f4dbd122c3f39",
+          "packed_size": 3210383,
+          "archive_size": 3328512,
+          "segments": 325,
+          "files": 174,
+          "segment_checks": 324,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:d1699dcdd99a753186fd0cd7cc83261db1db92d4e256c3b835d519edd55dca6f",
+          "index_digest": "sha256:6ca6444b6dad9ec77524c71e1e93ccaa7502e4c835b1f17e255cb523f1c0438c",
+          "packed_size": 2494415,
+          "archive_size": 2609152,
+          "segments": 318,
+          "files": 174,
+          "segment_checks": 317,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:6821867a0f13cb3076084ff7697ff9461fc2b77740990a6ae1470be707b36386",
+          "index_digest": "sha256:62891ca29484621152364aa224a7cc9394b0ae230a27beed77f0554aba71a796",
+          "packed_size": 2192026,
+          "archive_size": 2306048,
+          "segments": 300,
+          "files": 173,
+          "segment_checks": 299,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b2a1ac548e70cb89bdf6d51594cfc426b4620daec0e1eb339956f288fc4a9272",
+          "index_digest": "sha256:9089f223dd2f9c070b0322a554bd108efd9893e503c0e5fc51b01493186b56d2",
+          "packed_size": 2375564,
+          "archive_size": 2489344,
+          "segments": 311,
+          "files": 173,
+          "segment_checks": 310,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-18-c0",
+          "index_load_ms": 1487.924,
+          "ready_ms": 1492.273,
+          "cold": true,
+          "read_bytes": 95810,
+          "image_packed_bytes": 10272388,
+          "fraction_of_layers": 0.00932694520495137,
+          "index_bytes": 95766
+        },
+        {
+          "id": "img-18-c1",
+          "index_load_ms": 1487.924,
+          "ready_ms": 0.85,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10272388,
+          "fraction_of_layers": 0,
+          "index_bytes": 95766
+        },
+        {
+          "id": "img-18-c2",
+          "index_load_ms": 1487.924,
+          "ready_ms": 0.756,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10272388,
+          "fraction_of_layers": 0,
+          "index_bytes": 95766
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3109544,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 855,
+        "list_checks": 736,
+        "write_checks": 68,
+        "tree_checks": 1,
+        "paths": 211,
+        "bytes_checked": 296178,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:fa71d137e766e68f1a31f8526debc5e103242c4d54a2cea2242c9775bf8ff416 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-18",
+        "packed_bytes": 10272388,
+        "lazy_ready_ms": 17.161,
+        "lazy_bytes": 95810,
+        "lazy_fraction": 0.00932694520495137,
+        "full_ready_ms": 3307.616,
+        "full_bytes": 10272388,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-19",
+      "manifest": "sha256:ac172ed601c93c94ad16018504373c3706fb9a600ba78931e03bf9337f8e32a2",
+      "layers": [
+        {
+          "digest": "sha256:52b3914a3d9039eb54fc7e3b8b821f533248ca367e67f23938313fe2b809d509",
+          "index_digest": "sha256:69f100f98e106c93fba6cc573b875806649a48fdecef56c7f9da883e0351f0a6",
+          "packed_size": 3257889,
+          "archive_size": 3374592,
+          "segments": 329,
+          "files": 174,
+          "segment_checks": 328,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:e87ebc90c91d8607a55632dc9c73122646f407092b8fd01bf7e21950c7a25af2",
+          "index_digest": "sha256:6ac9be9925506f3b6a29a588c5f8a6d6c275937272cfeb9b2f597134d83cfb27",
+          "packed_size": 2277955,
+          "archive_size": 2392576,
+          "segments": 312,
+          "files": 174,
+          "segment_checks": 311,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:ebfd354d35249c060ed551fa21b418ab2e5964bc3db368eed3b5a1d9433d7378",
+          "index_digest": "sha256:d924ec3ce90880f4618254f751479d164b5a9e09b876e241652adfb60120b859",
+          "packed_size": 2167241,
+          "archive_size": 2280448,
+          "segments": 305,
+          "files": 173,
+          "segment_checks": 304,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:beda6070d5aa10519af9fb372d69c24ce3a97fcedfa9bd69d8cc6fb2f779e94f",
+          "index_digest": "sha256:d0755d410252a6daa7f33fde06388465e4c5d5dc6eb6aa4f973964d4939b749d",
+          "packed_size": 2341774,
+          "archive_size": 2456064,
+          "segments": 303,
+          "files": 173,
+          "segment_checks": 302,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-19-c0",
+          "index_load_ms": 1485.648,
+          "ready_ms": 1490.35,
+          "cold": true,
+          "read_bytes": 95420,
+          "image_packed_bytes": 10044859,
+          "fraction_of_layers": 0.0094993867011971,
+          "index_bytes": 95376
+        },
+        {
+          "id": "img-19-c1",
+          "index_load_ms": 1485.648,
+          "ready_ms": 1.513,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10044859,
+          "fraction_of_layers": 0,
+          "index_bytes": 95376
+        },
+        {
+          "id": "img-19-c2",
+          "index_load_ms": 1485.648,
+          "ready_ms": 1.46,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 10044859,
+          "fraction_of_layers": 0,
+          "index_bytes": 95376
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3077780,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 783,
+        "list_checks": 709,
+        "write_checks": 58,
+        "tree_checks": 1,
+        "paths": 200,
+        "bytes_checked": 267404,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:52b3914a3d9039eb54fc7e3b8b821f533248ca367e67f23938313fe2b809d509 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-19",
+        "packed_bytes": 10044859,
+        "lazy_ready_ms": 17.693,
+        "lazy_bytes": 95420,
+        "lazy_fraction": 0.0094993867011971,
+        "full_ready_ms": 3300.138,
+        "full_bytes": 10044859,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-20",
+      "manifest": "sha256:b6c2e3929402bfe58e9a44253b341998af066cc13b3e515fbf792286909ec657",
+      "layers": [
+        {
+          "digest": "sha256:07699abdcaf2ecbb6806f57c69dac1d34ba4ad798be12ddd3ed4246b7696f4a8",
+          "index_digest": "sha256:dc7a4f751d0cddeddfbc880eb3af67f7098b8f862337571a16ebabd77d87c4a8",
+          "packed_size": 3138333,
+          "archive_size": 3254784,
+          "segments": 314,
+          "files": 174,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:16a031da3b38b0c95c4acc94b38ceb7d4e08fbeadbf576feb76045b5930ae3fd",
+          "index_digest": "sha256:bbfd25bed367b1b07f20e06bfb741a26e37839a6b577f07288bee1f62a2b61ff",
+          "packed_size": 2242672,
+          "archive_size": 2354688,
+          "segments": 300,
+          "files": 174,
+          "segment_checks": 299,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:3af8f475f4ae9b78bac627c820a29f65230624641844747afef46643fff551b8",
+          "index_digest": "sha256:fe4da4e44d23596b58008a7520cc4c871e233836d78f219f308d2ca86289db19",
+          "packed_size": 2270727,
+          "archive_size": 2383872,
+          "segments": 304,
+          "files": 173,
+          "segment_checks": 303,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:280ba0648301cd99908c6c763b459cbae6760c24ddc7ca639b3ad1b41b4d6dca",
+          "index_digest": "sha256:129ce8fbf142bc1478d45d44865276bf706bc284ff67689ced578b6aaf6e544f",
+          "packed_size": 2344896,
+          "archive_size": 2460160,
+          "segments": 316,
+          "files": 173,
+          "segment_checks": 315,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-20-c0",
+          "index_load_ms": 1470.386,
+          "ready_ms": 1475.154,
+          "cold": true,
+          "read_bytes": 94582,
+          "image_packed_bytes": 9996628,
+          "fraction_of_layers": 0.009461390380836418,
+          "index_bytes": 94538
+        },
+        {
+          "id": "img-20-c1",
+          "index_load_ms": 1470.386,
+          "ready_ms": 1.323,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9996628,
+          "fraction_of_layers": 0,
+          "index_bytes": 94538
+        },
+        {
+          "id": "img-20-c2",
+          "index_load_ms": 1470.386,
+          "ready_ms": 1.082,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9996628,
+          "fraction_of_layers": 0,
+          "index_bytes": 94538
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3079791,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 824,
+        "list_checks": 745,
+        "write_checks": 51,
+        "tree_checks": 1,
+        "paths": 209,
+        "bytes_checked": 307001,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:07699abdcaf2ecbb6806f57c69dac1d34ba4ad798be12ddd3ed4246b7696f4a8 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-20",
+        "packed_bytes": 9996628,
+        "lazy_ready_ms": 17.515,
+        "lazy_bytes": 94582,
+        "lazy_fraction": 0.009461390380836418,
+        "full_ready_ms": 3282.901,
+        "full_bytes": 9996628,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-21",
+      "manifest": "sha256:466acc98794e074395eeb52eb0e585de6d84aac3affdf9111fb5507a168824b9",
+      "layers": [
+        {
+          "digest": "sha256:cc8d79a74462fd0adb4c9c50c51fd287abb2f34d58ae13dc1e5193a40bcc4f1d",
+          "index_digest": "sha256:8be57b1180f65e002c51a625cdcded445c2fb8c624d403409c1b0f10d4e6541c",
+          "packed_size": 2897626,
+          "archive_size": 3015680,
+          "segments": 321,
+          "files": 174,
+          "segment_checks": 320,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:2523bf4b864b0deb8e96bac659f645f8a49daa800507624b3bd68c98434f1ab3",
+          "index_digest": "sha256:4cfe6a9f2325a04050c336376793267677fc0924af2ca00617853f8784d35174",
+          "packed_size": 2305747,
+          "archive_size": 2420736,
+          "segments": 314,
+          "files": 174,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:df51c7b71d7d8d6475b32f3b3a8ed1a0625a2e78e18bc9abf426b8fc65d26008",
+          "index_digest": "sha256:8cc975731cdbc148809c55768615d810fe613bfbef76b8f7051dc0f3a9cb95c6",
+          "packed_size": 2370267,
+          "archive_size": 2484224,
+          "segments": 300,
+          "files": 173,
+          "segment_checks": 299,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:81a59183d0a55a358f31c0da12acb6468cfb4aa6c2db27e4fec3d0dfa5a510cd",
+          "index_digest": "sha256:e798b0eb848a897d5d1832a0098a2cd6ad616a4d406a07f27deaf417b32ff62c",
+          "packed_size": 2339310,
+          "archive_size": 2451968,
+          "segments": 312,
+          "files": 173,
+          "segment_checks": 311,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-21-c0",
+          "index_load_ms": 1480.949,
+          "ready_ms": 1485.771,
+          "cold": true,
+          "read_bytes": 95341,
+          "image_packed_bytes": 9912950,
+          "fraction_of_layers": 0.009617823150525322,
+          "index_bytes": 95297
+        },
+        {
+          "id": "img-21-c1",
+          "index_load_ms": 1480.949,
+          "ready_ms": 1.356,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9912950,
+          "fraction_of_layers": 0,
+          "index_bytes": 95297
+        },
+        {
+          "id": "img-21-c2",
+          "index_load_ms": 1480.949,
+          "ready_ms": 1.1,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9912950,
+          "fraction_of_layers": 0,
+          "index_bytes": 95297
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 3074553,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 825,
+        "list_checks": 737,
+        "write_checks": 70,
+        "tree_checks": 1,
+        "paths": 200,
+        "bytes_checked": 300281,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:cc8d79a74462fd0adb4c9c50c51fd287abb2f34d58ae13dc1e5193a40bcc4f1d segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-21",
+        "packed_bytes": 9912950,
+        "lazy_ready_ms": 17.822,
+        "lazy_bytes": 95341,
+        "lazy_fraction": 0.009617823150525322,
+        "full_ready_ms": 3334.438,
+        "full_bytes": 9912950,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-22",
+      "manifest": "sha256:f9f6485e3f8fd5a33ff60f845a661952ff45ede0a7693909bf196999a0c4b439",
+      "layers": [
+        {
+          "digest": "sha256:7f5d3f635d6e501b350e7b6ba7949571639378e8a747fdfa6d1f182f2d37ec69",
+          "index_digest": "sha256:4aecb32576072a45e6f0c55ec3fa55220a11f6364e7abd0d960382b8ffee3bff",
+          "packed_size": 3052880,
+          "archive_size": 3169280,
+          "segments": 319,
+          "files": 174,
+          "segment_checks": 318,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:5374fb7ea876e0c4d76dad0fa095617c05e35e4c5ccbe3ccf07f9cb654496a6d",
+          "index_digest": "sha256:5b643b6987f8613bbbef26471fc371f3daa6be8ecfdccc95a2a3db70e3efe5ff",
+          "packed_size": 2010322,
+          "archive_size": 2123776,
+          "segments": 296,
+          "files": 174,
+          "segment_checks": 295,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:48900d25bfa7dce6b3d2825df3e55b67c47d30b169932f144104c054f152fe5c",
+          "index_digest": "sha256:800f466a4e63c179ef9783cc2cfa76a5968b54b058cd1acc4e66cda4c16f14ba",
+          "packed_size": 2232082,
+          "archive_size": 2345472,
+          "segments": 303,
+          "files": 173,
+          "segment_checks": 302,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:02f94f83b55ab7d2eff23abcba8467855ac498ce87585c5a8a68630880d356d8",
+          "index_digest": "sha256:0f7d0bd7bfa5a13d056ce6ea0ddce7dc282501bff8d52c7a40d8df10b84761fc",
+          "packed_size": 2271161,
+          "archive_size": 2384896,
+          "segments": 303,
+          "files": 173,
+          "segment_checks": 302,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-22-c0",
+          "index_load_ms": 1460.636,
+          "ready_ms": 1465.404,
+          "cold": true,
+          "read_bytes": 93855,
+          "image_packed_bytes": 9566445,
+          "fraction_of_layers": 0.009810854502377843,
+          "index_bytes": 93811
+        },
+        {
+          "id": "img-22-c1",
+          "index_load_ms": 1460.636,
+          "ready_ms": 1.43,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9566445,
+          "fraction_of_layers": 0,
+          "index_bytes": 93811
+        },
+        {
+          "id": "img-22-c2",
+          "index_load_ms": 1460.636,
+          "ready_ms": 1.156,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9566445,
+          "fraction_of_layers": 0,
+          "index_bytes": 93811
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2743851,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 727,
+        "list_checks": 690,
+        "write_checks": 82,
+        "tree_checks": 1,
+        "paths": 197,
+        "bytes_checked": 219323,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:7f5d3f635d6e501b350e7b6ba7949571639378e8a747fdfa6d1f182f2d37ec69 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-22",
+        "packed_bytes": 9566445,
+        "lazy_ready_ms": 17.287,
+        "lazy_bytes": 93855,
+        "lazy_fraction": 0.009810854502377843,
+        "full_ready_ms": 3236.111,
+        "full_bytes": 9566445,
+        "full_fraction": 1
+      }
+    },
+    {
+      "name": "img-23",
+      "manifest": "sha256:c36fc1cfbe64800d4508ef0b347d498c7a4054b41afd2046842d2648b128a94e",
+      "layers": [
+        {
+          "digest": "sha256:df6030b821a1b1d5d65b7df0730507d740d4e399e28ffcb81a22a8d947f46b10",
+          "index_digest": "sha256:d230717b3b34998558766926df198c1bfbcc3f4eaf52706a183e2ec7ea372e84",
+          "packed_size": 2946744,
+          "archive_size": 3065856,
+          "segments": 328,
+          "files": 174,
+          "segment_checks": 327,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:b9573a945d9d4da90ea811a0da273db0b3107bd3330f8380bc38866c76f8dda3",
+          "index_digest": "sha256:6ec389c2897b97f2cd8c90587ace7ae6377ddc1f46ae1e0548c93f214ff8996f",
+          "packed_size": 2325228,
+          "archive_size": 2439168,
+          "segments": 313,
+          "files": 174,
+          "segment_checks": 312,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:63d206fe8cc8113c547551fb34ddd60e468c57b8f426fac2cee620ea156e68ce",
+          "index_digest": "sha256:34d1ac1d29322ee726a918fd1b06f76a22dff0a7bfe385873bbaf35f87805d12",
+          "packed_size": 2123772,
+          "archive_size": 2237440,
+          "segments": 314,
+          "files": 173,
+          "segment_checks": 313,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        },
+        {
+          "digest": "sha256:3b22a22ba446a1c75ea3d3f94f888bf7052f0dd70a70df9c336bb34ca72dbb14",
+          "index_digest": "sha256:153591d06b9847558f70522ebd83fce33bea169e2a336a014abe32906fb62a5c",
+          "packed_size": 2120825,
+          "archive_size": 2234368,
+          "segments": 297,
+          "files": 173,
+          "segment_checks": 296,
+          "tar_extract_ok": true,
+          "gzip_ok": true,
+          "round_trip_exact": true
+        }
+      ],
+      "containers": [
+        {
+          "id": "img-23-c0",
+          "index_load_ms": 1487.877,
+          "ready_ms": 1492.609,
+          "cold": true,
+          "read_bytes": 95592,
+          "image_packed_bytes": 9516569,
+          "fraction_of_layers": 0.010044796606844337,
+          "index_bytes": 95548
+        },
+        {
+          "id": "img-23-c1",
+          "index_load_ms": 1487.877,
+          "ready_ms": 1.283,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9516569,
+          "fraction_of_layers": 0,
+          "index_bytes": 95548
+        },
+        {
+          "id": "img-23-c2",
+          "index_load_ms": 1487.877,
+          "ready_ms": 1.132,
+          "cold": false,
+          "read_bytes": 0,
+          "image_packed_bytes": 9516569,
+          "fraction_of_layers": 0,
+          "index_bytes": 95548
+        }
+      ],
+      "share": {
+        "shared_layers": 4,
+        "max_refs": 3,
+        "freed_on_last": true,
+        "cached_bytes_before_stop": 2853469,
+        "detail": "4 layers open, max refcount 3"
+      },
+      "compare": {
+        "read_checks": 725,
+        "list_checks": 673,
+        "write_checks": 77,
+        "tree_checks": 1,
+        "paths": 211,
+        "bytes_checked": 250075,
+        "diffs": 0
+      },
+      "metadata": {
+        "paths": 193,
+        "diffs": 0,
+        "index_paths": 750,
+        "index_diffs": 0,
+        "xattr_paths": 189,
+        "hardlink_groups": 1,
+        "symlinks": 12,
+        "devices": 8,
+        "fifos": 4,
+        "privilege_skips": 198
+      },
+      "corruption": "layer sha256:df6030b821a1b1d5d65b7df0730507d740d4e399e28ffcb81a22a8d947f46b10 segment 9: gzip: invalid checksum",
+      "startup_study": {
+        "image": "img-23",
+        "packed_bytes": 9516569,
+        "lazy_ready_ms": 17.351,
+        "lazy_bytes": 95592,
+        "lazy_fraction": 0.010044796606844337,
+        "full_ready_ms": 3333.441,
+        "full_bytes": 9516569,
+        "full_fraction": 1
+      }
+    }
+  ],
+  "totals": {
+    "images": 24,
+    "layers": 96,
+    "files": 4632,
+    "reads": 19327,
+    "lists": 17404,
+    "writes": 1589,
+    "bytes_compared": 7104209,
+    "checks": 41387
+  },
+  "failures": [],
+  "passed": true
+}
